@@ -1,0 +1,21 @@
+from tkinter import*
+root = Tk()
+
+label = Lable(root, bg="grey")
+label.pack()
+
+Fist_Button = Button(label,text="Click Me" ,font=("verdana 34") , fg ="green" ,border=0)
+First_Button.pack(ipadx=5 ,ipady=3)
+
+
+
+
+
+
+
+
+
+
+
+root.geometry("700x400")
+root.mainloop()
